@@ -1,0 +1,7 @@
+.TodoListItemComponent{
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
