@@ -1,18 +1,5 @@
 <div class="HanAppComponent">
-    <span>User: </span><input type="text" [(ngModel)]="title" />
-    <div>{{title}}</div>
+  
+    <app-todo-list></app-todo-list>
 
-    <button type="button" (click)="buttonClicked($event)" >Show Title Value</button>
 </div>
-
-<div>{{myObj | json}}</div>
-
-<app-box [displayText]="myText" [counter]="123" (boxClicked)="boxClickHandler($event)" ></app-box>
-
-
-<button type="button" (click)="changeBoxMessage()">Change Box Message</button>
-
-
-
-<app-item *ngFor="let item of list; index as i" [count]="i" [value]="item"></app-item>
-<button type="button" (click)="addListItem()">Add List Item</button>
